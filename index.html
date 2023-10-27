@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Feliz cumpleaños</title>
+</head>
+<body>
+    <div class="card">
+        <div class="imgBox">
+            <img src="img/foto3.jpg" alt="">
+        </div>
+        <div class="details">
+            <h2>Feliz Cumpleaños Rashiel</h2>
+            <p>
+                "En tu día especial, deseo que cada momento esté lleno de alegría, amor y risas. Que encuentres felicidad en las pequeñas cosas y que todos tus sueños se hagan realidad. ¡Feliz cumpleaños! Que este nuevo año de vida esté lleno de experiencias maravillosas y momentos inolvidables. ¡Que tengas un día increíble y un año lleno de bendiciones!"
+            </p>
+            <br>
+            <br>
+            <br>
+            <h6>Atte: Kender M.</h6>
+        </div>
+    </div>
+    <script>
+        const card = document.querySelector('.card');
+
+        card.addEventListener('click', function() {
+            card.classList.toggle('is-flipped');
+        });
+    </script>
+</body>
+</html>
